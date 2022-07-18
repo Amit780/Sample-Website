@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0px;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    color: #40514E;
+}
+
+.top-container{
+    background-color:#E7F6F2;
+    padding-top: 100px; 
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 450px;
+    left:350px;
+}
+.top-cloud{
+    position: absolute;
+    right: 250px;
+}
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.skill-row{
+    margin: 65px auto 100px;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.blender{
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+.stack{
+    width: 20%;
+    border-radius: 100%;
+    float:right;
+    margin-left: 30px;
+}
+.profile{
+    padding: 30px;
+}
+hr{
+    width: 10%;
+    border-style: dotted none none;
+    border-color: rgb(233, 231, 231);
+    border-width: 10px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    line-height: 3;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.copy-right{
+    margin-bottom: 0;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
+.btn{
+    background-color: #33838e;
+    margin-top: 15px;
+    padding: 5px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    line-height: 2;
+    width: 10%;
+    font-size: large;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+.message{
+    width:40%;
+    margin: auto;
+    line-height: 2;
+}
+.btn:hover{
+    background-color: #338e7f;
+    cursor: pointer;
+    
+}
